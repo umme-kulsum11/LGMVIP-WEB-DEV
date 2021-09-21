@@ -1,0 +1,91 @@
+body{
+    background:url('https://images3.alphacoders.com/251/251009.jpg');
+    
+}
+
+.loader{
+    font-size: 50px;
+    margin-left: 550px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.animated{
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes fadeOut{
+0%{opacity: 1;}
+100%{opacity: 0;}
+}
+@keyframes fadeOut{
+    0% {opacity: 1;}
+    100%{opacity: 0;}
+    }
+.fadeout{
+-webkit-animation-name: fadeOut;
+animation-name: fadeOut;
+}
+.get-btn{
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+    border-radius: 10px;
+    color:black;
+    background-color:blue;
+    font-size: 2.5rem;
+    font-family:Cookie;
+}
+.get-btn:hover{
+    color:white;
+}
+.container-fluid a{
+    color:blue;
+    margin-top: 30px;
+    top: 0%;
+    display: flex;
+    position: relative;
+    font-size: 3.5rem;
+    margin-left: 20px;
+    font-family: Cookie;
+    text-decoration: none;
+
+}
+.container-fluid a:hover{
+    color:whitesmoke;
+}
+
+.dm{
+    padding: 0px 60px;
+}
+.main{
+    background-color:rgb(252, 184, 252);
+    margin-left: 300px;
+    margin-bottom: 100px;
+    display:inline-block;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    top: 0%;
+    font-family: Cookie;
+    font-size: 1.5rem;
+}
+.main:hover{
+    background-color:rgb(241, 207, 241);
+    border: 5px solid rgb(133, 3, 255);
+}
+.ig{
+    object-fit: cover;
+    
+}
+.ig:hover{
+    opacity: 0.6;
+}
+.body{
+    color: blue;
+}
